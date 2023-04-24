@@ -3,9 +3,8 @@
 /**
   *main - Entry point
   *
-  * A program using standard library
   *
-  *Return - Always 0 (sucess)
+  *Return: Always 0 (sucess)
   *
   */
 int main(void)
