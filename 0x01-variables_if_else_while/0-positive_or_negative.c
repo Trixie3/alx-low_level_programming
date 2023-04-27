@@ -2,11 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 /**
-  *main - Entry point
+  *main- Entry point
   *
   *prints positive and negative numbers
   *
-  *Return : Always 0 (sucess)
+  *Return: Always 0 (sucess)
   */
 int main(void)
 {
@@ -17,15 +17,15 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n < 0)
 {
-	printf("%d is a nagative number\n",n);
+	printf("%d is nagative\n", n);
 }
 	if (n == 0)
 {
-	printf("%d is zero\n",n);
+	printf("%d is zero\n", n);
 }
 	if (n > 0)
 {
-	printf("%d is a positive number\n",n);
+	printf("%d is positive\n", n);
 }
 	return (0);
 }
