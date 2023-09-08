@@ -2,7 +2,8 @@
 
 /**
  * main - main block
- * Description: Use `putchar` function to print the letters of the alphabet in lowercase.
+ * Description: Use `putchar` function to print
+ * the letters of the alphabet in lowercase.
  * Return: 0
  */
 
