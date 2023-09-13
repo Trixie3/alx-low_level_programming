@@ -14,7 +14,9 @@ int main(void)
 	i = 0;
 
 	/*while (i < 10)*/
-
+	//i will leave coments to get to 24
+	//hello
+	//hi
 
 	printf("Infinite loop avoided! \\o/\n");
 
