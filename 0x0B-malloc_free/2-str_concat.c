@@ -18,9 +18,6 @@ int _strlen(char *s)
 	while (s[l] != '\0')
 		l++;
 	return (l);
-#include "main.h"
-#include <stdlib.h>
-
 /**
 * str_concat -  concatenates two strings.
 * @s1: string parameter
