@@ -18,7 +18,7 @@ int _strlen(char *s)
 	while (s[l] != '\0')
 		l++;
 	return (l);
-nclude "main.h"
+#include "main.h"
 #include <stdlib.h>
 
 
