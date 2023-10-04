@@ -18,15 +18,12 @@ char *_strdup(char *str)
 	while (str[len] != '\0')
 		len++;
 
-		t = (char *) malloc(len + 1);
+	t = (char *) malloc(len + 1);
 	if (t == NULL)
 		return (NULL);
 
-
 	for (; i < len; i++)
 		t[i] = str[i];
-
 	t[len] = '\0';
-
 	return (t);
 }
